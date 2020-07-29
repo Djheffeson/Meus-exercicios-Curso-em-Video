@@ -1,0 +1,8 @@
+num = str(input('Informe um número: '))
+nums = ' '.join(num)
+separado = nums.split()
+print('Analisando o número {}'.format(num))
+print('Unidade: {}'.format(separado[3]))
+print('Dezena: {}'.format(separado[2]))
+print('Centena: {}'.format(separado[1]))
+print('Milhar: {}'.format(separado[0]))
